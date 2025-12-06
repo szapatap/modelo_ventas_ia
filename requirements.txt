@@ -1,0 +1,16 @@
+# Requirements detected from the repository imports
+# You can pin versions if desired, e.g. pandas==1.5.3
+
+pandas
+numpy
+streamlit
+plotly
+scikit-learn
+joblib
+scipy
+
+# Optional (only if used in your environment):
+# matplotlib
+# tensorflow
+# torch
+
