@@ -1,0 +1,77 @@
+# Python .gitignore
+# See: https://github.com/github/gitignore/blob/main/Python.gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+wheel/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+venv.bak/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# IPython/Jupyter
+.ipynb_checkpoints
+
+# Editor directories
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Dataset folders (apropiado para proyectos ML/data)
+/data/
+/datasets/
+/data_raw/
+/data_processed/
+/raw_data/
+/input_data/
+
+# Common dataset file types
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.tfrecord
+*.npz
+*.npy
+
+# Cache folders
+.cache/
+cache/
+*/__pycache__/
+
+# Optional: large model artifacts (descomentar si aplica)
+# models/
+# checkpoints/
+# saved_models/
+# outputs/
+
+# Secret files
+.env
+
+# End of .gitignore
